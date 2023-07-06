@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartCare - Contact Us</title>
+    <link rel="icon" href="Images/FaviconSmartCare.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="images/LogoSmartCare.jpg" alt="Logo" height="100" width="100"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="About%20Us.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Our%20Services.html">Our Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Login.HTML">Login/Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mt-5">
+        <h3 class="mb-4">We appreciate your valuable feedback. Please write to us if you have any queries.</h3>
+        <form action="#">
+            <div class="mb-3">
+                <label for="Name" class="form-label">Your Name</label>
+                <input type="text" class="form-control" id="Name" placeholder="Enter Your Name Here" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Gender</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gender" id="male" value="male">
+                    <label class="form-check-label" for="male">Male</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gender" id="female" value="female">
+                    <label class="form-check-label" for="female">Female</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gender" id="not-to-say" value="not-to-say">
+                    <label class="form-check-label" for="not-to-say">Prefer Not to Say</label>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="Address" class="form-label">Address</label>
+                <inputtype="text" class="form-control" id="Address" placeholder="House, Road, Area" required>
+            </div>
+            <div class="mb-3">
+                <label for="District" class="form-label">District</label>
+                <select class="form-select" id="District" required>
+                    <option value="1">Dhaka</option>
+                    <option value="2">Rajshahi</option>
+                    <option value="3">Khulna</option>
+                    <option value="4">Barishal</option>
+                    <option value="5">Sylhet</option>
+                    <option value="6">Gazipur</option>
+                    <option value="7">Narayanganj</option>
+                    <option value="8">Sirajganj</option>
+                    <option value="9">Tangail</option>
+                    <option value="10">Rangpur</option>
+                </select>
+                <small>(Currently, we are operating in these districts only)</small>
+            </div>
+            <div class="mb-3">
+                <label for="Email" class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="Email" placeholder="Enter Your Email Address" required>
+            </div>
+            <div class="mb-3">
+                <label for="Phone" class="form-label">Phone Number</label>
+                <input type="text" class="form-control" id="Phone" placeholder="+8801XXXXXXXXX" required>
+            </div>
+            <div class="mb-3">
+                <label for="Feedback" class="form-label">Type Your Feedback Here</label>
+                <textarea class="form-control" id="Feedback" rows="5"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Feedback</button>
+        </form>
+    </main>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
