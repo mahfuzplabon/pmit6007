@@ -13,6 +13,13 @@
         body {
             padding: 20px;
         }
+        /* Override Bootstrap styles for larger screens */
+        @media (min-width: 992px) {
+            .col-lg-8 {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+        }
     </style>
 </head>
 
