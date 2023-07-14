@@ -16,7 +16,55 @@
 
         #services {
             text-align: center;
+            width: 100%;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            background-color: transparent;
+            border-collapse: collapse;
+            border-color: #000;
+            font-size: 0.875rem;
         }
+
+        #services th,
+        #services td {
+            padding: 0.75rem;
+            vertical-align: top;
+            border-top: 1px solid #dee2e6;
+        }
+
+        #services thead th {
+            vertical-align: bottom;
+            border-bottom: 2px solid #dee2e6;
+        }
+
+        #services tbody+tbody {
+            border-top: 2px solid #dee2e6;
+        }
+
+        #services .table-dark th {
+            color: #fff;
+            background-color: #212529;
+            border-color: #32383e;
+        }
+
+        #services .table-bordered {
+            border: 1px solid #dee2e6;
+        }
+
+        #services .table-bordered th,
+        #services .table-bordered td {
+            border: 1px solid #dee2e6;
+        }
+
+        #services .table-hover tbody tr:hover {
+            background-color: rgba(0, 0, 0, 0.075);
+        }
+
+        .navbar-brand img {
+            max-height: 100px;
+            width: auto;
+        }
+
     </style>
 </head>
 
@@ -24,9 +72,8 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
-                <a class="navbar-brand" href="#"><img src="https://juniv.edu/images/logo-ju.png" alt="Logo" height="100" width="100"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" href="#"><img src="https://juniv.edu/images/logo-ju.png" alt="Logo" height="100"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
@@ -85,6 +132,17 @@
                 </tr>
             </tbody>
         </table>
+
+        <h3 class="mt-4" style="color: darkblue;">Professional Masters in IT (PMIT) Program</h3>
+        <ul>
+            <li>Advanced Database Management Systems</li>
+            <li>Artificial Intelligence and Machine Learning</li>
+            <li>Cloud Computing and Virtualization</li>
+            <li>Data Mining and Analytics</li>
+            <li>Software Engineering</li>
+            <li>Information Security and Privacy</li>
+            <li>Web Technologies and Applications</li>
+        </ul>
     </main>
 
     <!-- Bootstrap JS -->

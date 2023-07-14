@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jahangirnagar University - About Us</title>
+    <title>SmartCare - About Us</title>
     <link rel="icon" href="https://juniv.edu/images/favicon.ico">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
@@ -13,6 +13,7 @@
         body {
             padding: 20px;
         }
+
         /* Override Bootstrap styles for larger screens */
         @media (min-width: 992px) {
             .col-lg-8 {
@@ -20,6 +21,137 @@
                 max-width: 100%;
             }
         }
+
+        /* Inline styles from Bootstrap classes */
+        .navbar {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -ms-flex-align: center;
+            align-items: center;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            padding: 0.5rem 1rem;
+        }
+
+        .navbar-light {
+            background-color: #f8f9fa !important;
+        }
+
+        .navbar-expand-lg {
+            -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+        }
+
+        .navbar-brand {
+            display: inline-block;
+            padding-top: 0.3125rem;
+            padding-bottom: 0.3125rem;
+            margin-right: 1rem;
+            font-size: 1.25rem;
+            line-height: inherit;
+            white-space: nowrap;
+        }
+
+        .navbar-nav {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            padding-left: 0;
+            margin-bottom: 0;
+            list-style: none;
+        }
+
+        .navbar-nav .nav-link {
+            color: #333;
+            display: block;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #007bff;
+        }
+
+        .container {
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .mt-5 {
+            margin-top: 3rem !important;
+        }
+
+        .row {
+            display: -ms-flexbox;
+            display: flex;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+        }
+
+        .col-lg-8 {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+
+        .mb-4 {
+            margin-bottom: 1.5rem !important;
+        }
+
+        hr {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            border: 0;
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 1rem;
+        }
+
+        .text-center {
+            text-align: center !important;
+        }
+
+        .img-fluid {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .mt-5 {
+            margin-top: 3rem !important;
+        }
+
+        #last {
+            margin-bottom: 0;
+        }
+
+        .mt-4 {
+            margin-top: 1.5rem !important;
+        }
+
+        .text-right {
+            text-align: right !important;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+            background-color: transparent;
+        }
+
+        a:hover {
+            color: #0056b3;
+            text-decoration: underline;
+        }
+
     </style>
 </head>
 
@@ -28,9 +160,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
                 <a class="navbar-brand" href="#"><img src="https://juniv.edu/images/logo-ju.png" alt="Logo" height="100"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
@@ -61,17 +191,19 @@
             <div class="col-lg-8">
                 <h2 class="mb-4" style="color: darkblue;">Jahangirnagar University</h2>
                 <hr>
-                <p style="text-align: justify;"><font size="5" face="Monotype Corsiva">Jahangirnagar University is a public university located in Savar, Dhaka, Bangladesh. It is one of the leading universities in Bangladesh, known for its beautiful campus and excellent academic programs.</font></p>
+                <p style="text-align: justify;">
+                    <font size="5" face="Monotype Corsiva">Jahangirnagar University is a public university located in Savar, Dhaka, Bangladesh. It is one of the leading universities in Bangladesh, known for its beautiful campus and excellent academic programs.</font>
+                </p>
 
-                <h2 class="mt-5 mb-4" style="color: darkblue;">Our Mission and Vision</h2>
+                <h2 class="mt-5 mb-4" style="color: darkblue;">Department of IIT, Jahangirnagar University</h2>
                 <hr>
-                <p style="text-align: justify;">Our mission is to provide high-quality education and research opportunities to students and contribute to the development of society through knowledge and innovation.</p>
+                <p style="text-align: justify;">The Department of Information Technology (IIT) at Jahangirnagar University offers a wide range of academic programs and research opportunities in the field of Information Technology. With a dedicated faculty and state-of-the-art facilities, the department aims to provide quality education and prepare students for successful careers in the IT industry.</p>
 
                 <div class="text-center">
                     <img src="https://juniv.edu/images/logo-ju.png" class="img-fluid" alt="Jahangirnagar University Logo">
                 </div>
 
-                <p class="mt-5">Jahangirnagar University is committed to nurturing creative and critical thinking, ethical values, and social responsibility among its students. We strive to create a conducive learning environment that fosters intellectual growth and prepares students to become future leaders in their respective fields.</p>
+                <p class="mt-5">Jahangirnagar University is committed to nurturing creative and critical thinking, ethical values, and social responsibility among its students. The Department of IIT plays a significant role in achieving this mission by offering comprehensive IT programs and promoting innovation through research and industry collaboration.</p>
 
                 <h4 class="mt-5" id="last">Thank you for visiting Jahangirnagar University.</h4>
                 <h3 class="mt-4" style="text-align: right;"><a href="#top" style="color: darkorange;">Go to Top of This Page</a></h3>

@@ -12,7 +12,90 @@
         /* Custom styles */
         body {
             padding: 20px;
+            color: #333;
+            font-family: Arial, sans-serif;
         }
+
+        header {
+            background-color: #f8f9fa;
+        }
+
+        nav .navbar-brand img {
+            height: auto;
+            max-width: 200px;
+        }
+
+        .navbar-nav .nav-link {
+            color: #555;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-right: 10px;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #007bff;
+        }
+
+        main {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0;
+        }
+
+        hr {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border-color: #ddd;
+        }
+
+        .text-justify {
+            text-align: justify;
+            text-indent: 30px;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .img-fluid {
+            width: 300px;
+            height: auto;
+        }
+
+        .mt-3 {
+            margin-top: 20px;
+        }
+
+        .vision {
+            margin-top: 40px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .vision h3 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .mission {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        .mission h3 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
     </style>
 </head>
 
@@ -20,9 +103,8 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
-                <a class="navbar-brand" href="#"><img src="https://juniv.edu/images/logo-ju.png" alt="Logo" height="100"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" href="#"><img src="https://juniv.edu/images/logo-ju.png" alt="Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
@@ -49,9 +131,7 @@
     </header>
 
     <main class="container mt-5">
-        <marquee behavior="alternate" direction="right">
-            <h2 class="fw-bold text-primary">Welcome to Jahangirnagar University's IIT Department - Professional Masters in IT</h2>
-        </marquee>
+        <h2 class="fw-bold text-primary text-center">Welcome to Jahangirnagar University's IIT Department - Professional Masters in IT</h2>
         <hr>
         <p class="text-justify">
             The Department of Information Technology (IIT) at Jahangirnagar University offers a Professional Masters in IT program. Our program combines cutting-edge technology with comprehensive education to equip students with advanced skills and knowledge in the field of Information Technology. We strive to prepare our students for successful careers in the IT industry and beyond.
@@ -62,6 +142,14 @@
         <p class="mt-3">
             Join us at Jahangirnagar University's IIT Department and experience a world-class learning environment. Our dedicated faculty and state-of-the-art facilities ensure that students receive quality education and hands-on experience in the IT field. Prepare yourself for a successful career in the ever-evolving world of technology.
         </p>
+        <div class="vision">
+            <h3>Vision:</h3>
+            <p>The vision of the IIT-JU is to enlighten the students through need-based academic innovation and research works and prepare them for the real-life challenges in the field of ICT.</p>
+        </div>
+        <div class="mission">
+            <h3>Mission:</h3>
+            <p>The mission of IIT-JU is to create splendid students by enhancing knowledge and competitiveness through excellent education, hands-on experience, state-of-the-art research, and industry collaboration.</p>
+        </div>
     </main>
 
     <!-- Bootstrap JS -->
